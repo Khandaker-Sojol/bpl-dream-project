@@ -1,0 +1,122 @@
+[
+  {
+    "playerName": "Shakib Al Hasan",
+    "playerImg": "https://i.ibb.co.com/WvtkV353/Sakib.jpg",
+    "rating": 9.5,
+    "country": "Bangladesh",
+    "playerType": "All-rounder",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm orthodox",
+    "price": 800000
+  },
+  {
+    "playerName": "Tamim Iqbal",
+    "playerImg": "https://i.ibb.co.com/BKVh4Tnz/Tamim-1.jpg",
+    "rating": 9.3,
+    "country": "Bangladesh",
+    "playerType": "Batsman",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "price": 750000
+  },
+  {
+    "playerName": "Mushfiqur Rahim",
+    "playerImg": "https://i.ibb.co.com/xS5fWx44/musfiq.jpg",
+    "rating": 9.1,
+    "country": "Bangladesh",
+    "playerType": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 700000
+  },
+  {
+    "playerName": "Mustafizur Rahman",
+    "playerImg": "https://i.ibb.co.com/HDfq29h3/mustafiz.jpg",
+    "rating": 9.0,
+    "country": "Bangladesh",
+    "playerType": "Bowler",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Left-arm fast-medium",
+    "price": 720000
+  },
+  {
+    "playerName": "Kyle Mayers",
+    "playerImg": "https://i.ibb.co.com/n8nsVGHj/Kyle-Mayers.jpg",
+    "rating": 8.8,
+    "country": "West Indies",
+    "playerType": "All-rounder",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "price": 600000
+  },
+  {
+    "playerName": "Faheem Ashraf",
+    "playerImg": "https://i.ibb.co.com/VcCD171r/faheem.webp",
+    "rating": 8.7,
+    "country": "Pakistan",
+    "playerType": "All-rounder",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium-fast",
+    "price": 580000
+  },
+  {
+    "playerName": "Alex Hales",
+    "playerImg": "https://i.ibb.co.com/ksqD0CL7/alex.jpg",
+    "rating": 8.5,
+    "country": "England",
+    "playerType": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 550000
+  },
+  {
+    "playerName": "Soumya Sarkar",
+    "playerImg": "https://i.ibb.co.com/7NZJNHw4/soumya.jpg",
+    "rating": 8.6,
+    "country": "Bangladesh",
+    "playerType": "Batsman",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 560000
+  },
+  {
+    "playerName": "Taijul Islam",
+    "playerImg": "https://i.ibb.co.com/Q7Vj2PQh/taijul.webp",
+    "rating": 8.4,
+    "country": "Bangladesh",
+    "playerType": "Bowler",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm orthodox",
+    "price": 540000
+  },
+  {
+    "playerName": "Mohammad Naim",
+    "playerImg": "https://i.ibb.co.com/kVZwcdsd/naim.webp",
+    "rating": 8.3,
+    "country": "Bangladesh",
+    "playerType": "Batsman",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 530000
+  },
+  {
+    "playerName": "Shoriful Islam",
+    "playerImg": "https://i.ibb.co.com/TGJKydS/shoriful.jpg",
+    "rating": 8.2,
+    "country": "Bangladesh",
+    "playerType": "Bowler",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm fast-medium",
+    "price": 510000
+  },
+  {
+    "playerName": "Anamul Haque Bijoy",
+    "playerImg": "https://i.ibb.co.com/WvtzbSz3/Anamul-Haque.jpg",
+    "rating": 8.1,
+    "country": "Bangladesh",
+    "playerType": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 500000
+  }
+]
