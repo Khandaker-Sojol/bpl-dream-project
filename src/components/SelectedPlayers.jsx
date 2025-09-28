@@ -1,7 +1,11 @@
 import React from "react";
 
 const SelectedPlayers = () => {
-  return <div></div>;
+  return (
+    <div>
+      <h1 className="text-4xl">Selected</h1>
+    </div>
+  );
 };
 
 export default SelectedPlayers;
