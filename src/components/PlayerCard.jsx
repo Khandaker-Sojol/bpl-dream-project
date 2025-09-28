@@ -1,9 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaFlag } from "react-icons/fa";
 import { FaUserAlt } from "react-icons/fa";
+import { toast } from "react-toastify";
 
-const PlayerCard = ({ player }) => {
-  console.log(player);
+const PlayerCard = ({
+  player,
+  availableBalance,
+  setAvailableBalance,
+  purchasedPlayer,
+  setPurchasedPlayer,
+}) => {
+  const [isSelected, setIsSelected] = useState(false);
+  //   console.log(player);
+
+  const handleSelect = (playerData) => {
+    if (availableBalance < player.price) {
+      toast.error("You don't have enough coins");
+      return;
+    }
+    if (purchasedPlayer.length == 6) {
+      toast.error("6 players Already Selected");
+      return;
+    }
+    toast.success("You Select the Players");
+    setIsSelected(true);
+    setAvailableBalance(availableBalance - player.price);
+    setPurchasedPlayer([...purchasedPlayer, playerData]);
+  };
 
   return (
     <div className="card bg-base-100 shadow-sm">
@@ -40,9 +63,15 @@ const PlayerCard = ({ player }) => {
         </div>
         <div className="flex justify-between items-center">
           <h4 className="font-semibold">
-            <span className="font-extrabold">Price:$</span> {player.price}
+            <span className="font-extrabold">Price:$</span> {player.price} USD
           </h4>
-          <button className="btn font-light">Choose Player</button>
+          <button
+            disabled={isSelected}
+            onClick={() => handleSelect(player)}
+            className="btn font-light"
+          >
+            {isSelected ? "Selected" : "Choose Player"}
+          </button>
         </div>
       </div>
     </div>
